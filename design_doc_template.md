@@ -27,13 +27,28 @@ poner diagramas de secuencia, uml, etc
 Poner diseño de entidades, Jsons, tablas, diagramas entidad relación, etc..
 
 ---
+
+### Plan de pruebas (opcional)
+definir las pruebas de las funcionalidades
+Ej.
+crear usuario, editar usuario, ver reportes
+
+### Integracion continua (opcional)
+puede tener diagramas de como va a ser la distribucion del sistema
+Ej.
+* Ambiente de desarrollo
+* Ambiente de testing
+* Ambiente de produccion
+
+ De desarrollo se envia a testing, si pasa las pruebas se envia a producción
+
 ## Limitaciones
 Lista de limitaciones conocidas. Puede ser en formato de lista.
 Ej.
 * Llamadas del API tienen latencia X
 * No se soporta mas de X llamadas por segundo
 ---
-## Costo
+## Costo (opcional)
 Descripción/Análisis de costos
 Ejemplo:
 "Considerando N usuarios diarios, M llamadas a X servicio/baseDatos/etc"
